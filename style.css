@@ -1,0 +1,276 @@
+*{
+    margin:0;
+}
+#container{
+    background-color: white;
+    height: auto;
+    width: 95%;
+    margin:auto;
+}
+
+#header{
+    height: 60px;
+    background-color: white;
+}
+
+#header_logo{
+    height: 60px;
+
+}
+#nav{
+    top: 0;
+    position: sticky;
+    height: 30px;
+    padding: 10px;
+    background-color: goldenrod;
+    z-index: 1;
+}
+
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    display: inline;
+    margin: 30px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Candara;
+}
+#nav ul li a:hover{
+    color: black;
+}
+#nav ul li ul{
+    display: none;
+}
+#nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    width: 90px;
+    background-color: goldenrod;
+    margin-left: 280px;
+    font-family: candera;
+    font-size: 22px;
+}
+#nav ul li ul li{
+    margin-left: -10px;
+    line-height: 40px;
+}
+#nav ul li ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+#banner{
+    background-color: green;
+    height: 490px;
+}
+#banner img{
+    height: 100%;
+    width: 100%;
+}
+#mqdemo{
+    height: 40px;
+    background-color: white;
+    font-family: candera;
+    font-size: 20px;
+    padding-top: 5px;
+}
+#col{
+    color: goldenrod;
+}
+#content{
+    padding: 40px;
+    font-family: candera;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+#box{
+    background-color: white;
+    height: 400px;
+    padding: 40px;
+}
+#box1{
+    height: 400px;
+    width: 260px;
+    background-color: red;
+    margin: 8px;
+    float: left;
+    margin-left: 50px;
+
+}
+#box2{
+    height: 400px;
+    width: 260px;
+    background-color: red;
+    margin: 8px;
+    float: left;
+
+}
+#box3{
+    height: 400px;
+    width: 260px;
+    background-color: red;
+    margin: 8px;
+    float: left;
+
+}
+#box4{
+    height: 400px;
+    width: 260px;
+    background-color: red;
+    margin: 8px;
+    float: left;
+
+}
+#box_image{
+    height: 400px;
+    width: 260px;
+}
+#leftbtn{
+    margin-left: 20px;
+    background-color: yellowgreen;
+    color: red;
+    border-radius: 50%;
+}
+#rightbtn{
+background-color: yellowgreen;
+color: red;
+border-radius: 50%;
+}
+#input{
+    background-color: yellowgreen;
+    color: red;
+    
+}
+
+#newsletter{
+    height: 200px;
+    padding: 40px;
+    background-color: whitesmoke;
+    font-family: candara;
+}
+
+#subinput{
+    height: 50px;
+    width: 580px;
+    font-size: 22px;
+    font-family: candara;
+    
+    outline-color: goldenrod;
+    text-align: center;
+}
+#subbtn{
+    height: 55px;
+    width: 180px;
+    margin-left: -5px ;
+    font-size: 24px;
+    font-family: candara;
+    border-width: 0px;
+    background-color: goldenrod;
+    color: white;
+}
+
+#subbtn:hover{
+    background-color: red;
+}
+
+#about{
+    background-color: white;
+    height: 400px;
+    padding: 30px;
+    font-family: candara;
+}
+
+#about1{
+    margin: 5px;
+    float: left;
+    height: 340px;
+    width: 340px;
+}   
+
+#about2{
+    margin: 5px;
+    float: left;
+    height: 280px;
+    width: 750px;
+    padding: 30px;
+    text-align: justify;
+}
+
+#aboutimg{
+    height: 340px;
+    width: 340px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+#gallary{
+    height: 360px;
+    background-color: whitesmoke;
+    padding: 50px;
+    font-family: candara;
+    position: relative;
+}
+
+#gallaryimg{
+    height: 290px;
+    width: 290px;
+   
+    float: left;
+    margin: 5px;
+
+}
+
+#imggallary{
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    transition: 4s;
+
+}
+#imggallary:hover{
+    transform: scale(1.2);
+}
+
+#contact{
+    height: 400px;
+    padding: 30px;
+    font-family: candara;   
+}
+
+#contact1,#contact2,#contact3{
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    float: left;
+    line-height: 30px;
+    font-size: 19px;
+}
+
+#contact1 a,#contact2 a,#contact3 a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact4{
+    height: 335px;
+    width: 370px;
+    margin: 10px;
+    float: left;
+}
+
+iframe{
+    height: 335px;
+    width: 400px;
+}
+
+#footer{
+    font-family: candara;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 5px;
+}
